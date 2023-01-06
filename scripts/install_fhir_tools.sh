@@ -15,7 +15,7 @@ sudo apt-get update; \
   sudo apt-get install -y dotnet-sdk-3.1
 
 echo "##### Installing firely.terminal"
-sudo dotnet tool install --global firely.terminal --version 2.5.0-beta-7
+sudo dotnet tool install --global firely.terminal
 
 echo "##### Installing yq yaml-parser"
 sudo snap install yq
