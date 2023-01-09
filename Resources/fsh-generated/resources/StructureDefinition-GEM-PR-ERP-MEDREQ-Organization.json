@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "gem-pr-erp-medreq-organization",
+  "id": "GEM-PR-ERP-MEDREQ-Organization",
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
@@ -11,8 +11,8 @@
       "valueCode": "business"
     }
   ],
-  "url": "https://gematik.de/fhir/erpmedreqcom/StructureDefinition/gem-pr-erp-medreq-organization",
-  "version": "0.9",
+  "url": "https://gematik.de/fhir/erpmedreqcom/StructureDefinition/GEM_PR_ERP_MEDREQ_Organization",
+  "version": "1.0",
   "name": "GEM_PR_ERP_MEDREQ_Organization",
   "title": "GEM PR ERP MEDREQ Organization",
   "status": "draft",
@@ -69,16 +69,11 @@
         "path": "Organization.meta.profile",
         "min": 1,
         "max": "1",
-        "fixedCanonical": "https://gematik.de/fhir/erpmedreqcom/StructureDefinition/GEM_PR_ERP_MEDREQ_Organization|0.9"
+        "fixedCanonical": "https://gematik.de/fhir/erpmedreqcom/StructureDefinition/GEM_PR_ERP_MEDREQ_Organization|1.0"
       },
       {
         "id": "Organization.meta.security",
         "path": "Organization.meta.security",
-        "max": "0"
-      },
-      {
-        "id": "Organization.meta.tag",
-        "path": "Organization.meta.tag",
         "max": "0"
       },
       {

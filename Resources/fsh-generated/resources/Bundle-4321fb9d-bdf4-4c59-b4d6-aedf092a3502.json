@@ -1,10 +1,9 @@
 {
   "resourceType": "Bundle",
-  "id": "DispenseInformationBundle",
+  "id": "4321fb9d-bdf4-4c59-b4d6-aedf092a3502",
   "meta": {
     "profile": [
-      "https://gematik.de/fhir/erpmedreqcom/StructureDefinition/gem-pr-erp-medreq-dispense-information-bundle",
-      "https://gematik.de/fhir/erpmedreqcom/StructureDefinition/GEM_PR_ERP_MEDREQ_DispenseInformationBundle|0.9"
+      "https://gematik.de/fhir/erpmedreqcom/StructureDefinition/GEM_PR_ERP_MEDREQ_DispenseInformationBundle|1.0"
     ]
   },
   "type": "message",
@@ -20,8 +19,7 @@
         "id": "b2e0e631-42fd-4d8a-a7b2-a2f54fe70bf7",
         "meta": {
           "profile": [
-            "https://gematik.de/fhir/erpmedreqcom/StructureDefinition/gem-pr-erp-medreq-message-header",
-            "https://gematik.de/fhir/erpmedreqcom/StructureDefinition/GEM_PR_ERP_MEDREQ_MessageHeader|0.9"
+            "https://gematik.de/fhir/erpmedreqcom/StructureDefinition/GEM_PR_ERP_MEDREQ_MessageHeader|1.0"
           ]
         },
         "extension": [
@@ -96,7 +94,7 @@
           }
         ],
         "medicationReference": {
-          "reference": "Medication/MedicationExamplePZN"
+          "reference": "Medication/7474c076-701c-4a7e-a71e-822f106e5262"
         },
         "subject": {
           "reference": "Patient/b04f58bc-bb37-4490-9561-2e6954764c4a"
@@ -189,8 +187,7 @@
         "id": "a8efd0b3-58c3-48f7-89f5-67f86dd298e8",
         "meta": {
           "profile": [
-            "https://gematik.de/fhir/erpmedreqcom/StructureDefinition/gem-pr-erp-medreq-organization",
-            "https://gematik.de/fhir/erpmedreqcom/StructureDefinition/GEM_PR_ERP_MEDREQ_Organization|0.9"
+            "https://gematik.de/fhir/erpmedreqcom/StructureDefinition/GEM_PR_ERP_MEDREQ_Organization|1.0"
           ]
         },
         "telecom": [
@@ -239,8 +236,7 @@
         "id": "f89adcee-7fe3-4b06-bc5f-e17b592a3a5f",
         "meta": {
           "profile": [
-            "https://gematik.de/fhir/erpmedreqcom/StructureDefinition/gem-pr-erp-medreq-organization",
-            "https://gematik.de/fhir/erpmedreqcom/StructureDefinition/GEM_PR_ERP_MEDREQ_Organization|0.9"
+            "https://gematik.de/fhir/erpmedreqcom/StructureDefinition/GEM_PR_ERP_MEDREQ_Organization|1.0"
           ]
         },
         "telecom": [

@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "gem-pr-erp-medreq-cancellation-header",
+  "id": "GEM-PR-ERP-MEDREQ-CancellationHeader",
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
@@ -11,8 +11,8 @@
       "valueCode": "not-classified"
     }
   ],
-  "url": "https://gematik.de/fhir/erpmedreqcom/StructureDefinition/gem-pr-erp-medreq-cancellation-header",
-  "version": "0.9",
+  "url": "https://gematik.de/fhir/erpmedreqcom/StructureDefinition/GEM_PR_ERP_MEDREQ_CancellationHeader",
+  "version": "1.0",
   "name": "GEM_PR_ERP_MEDREQ_CancellationHeader",
   "title": "GEM PR ERP MEDREQ CancellationHeader",
   "status": "draft",
@@ -64,16 +64,11 @@
         "path": "MessageHeader.meta.profile",
         "min": 1,
         "max": "1",
-        "fixedCanonical": "https://gematik.de/fhir/erpmedreqcom/StructureDefinition/GEM_PR_ERP_MEDREQ_CancellationHeader|0.9"
+        "fixedCanonical": "https://gematik.de/fhir/erpmedreqcom/StructureDefinition/GEM_PR_ERP_MEDREQ_CancellationHeader|1.0"
       },
       {
         "id": "MessageHeader.meta.security",
         "path": "MessageHeader.meta.security",
-        "max": "0"
-      },
-      {
-        "id": "MessageHeader.meta.tag",
-        "path": "MessageHeader.meta.tag",
         "max": "0"
       },
       {
@@ -187,7 +182,7 @@
             "code": "Reference",
             "targetProfile": [
               "https://fhir.kbv.de/StructureDefinition/KBV_PR_FOR_Organization",
-              "https://gematik.de/fhir/erpmedreqcom/StructureDefinition/gem-pr-erp-medreq-organization"
+              "https://gematik.de/fhir/erpmedreqcom/StructureDefinition/GEM-PR-ERP-MEDREQ-Organization"
             ]
           }
         ]
